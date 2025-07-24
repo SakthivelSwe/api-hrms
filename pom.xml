@@ -5,14 +5,19 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.4.7</version>
+		<version>3.5.3 </version>
 		<relativePath/>
 	</parent>
 	<groupId>com.tvm</groupId>
 	<artifactId>hrms</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>hrms</name>
-	<packaging>pom</packaging>
+    <modules>
+        <module>Eureka-server</module>
+		<module>API-Gateway</module>
+		<module>Leave-Service</module>
+	</modules>
+    <packaging>pom</packaging>
 	<url/>
 	<licenses>
 		<license/>
