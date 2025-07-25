@@ -36,6 +36,7 @@ public class SecurityConfig{
                         .requestMatchers("/home").permitAll()
                         .anyRequest().permitAll()
                 )
+
                 //.formLogin(form -> form.permitAll().defaultSuccessUrl("/dashboard"))
                 .csrf(csrf -> csrf.disable())
                 .sessionManagement(session ->
