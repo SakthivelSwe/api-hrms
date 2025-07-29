@@ -7,6 +7,7 @@ import jakarta.persistence.*;
 @Table(name = "employees")
 public class EmployeeEntityModel {
 
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
