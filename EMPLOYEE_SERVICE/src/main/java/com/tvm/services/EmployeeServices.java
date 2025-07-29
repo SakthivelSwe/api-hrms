@@ -24,7 +24,7 @@ public class EmployeeServices {
         employee.setEmail(dto.getEmail());
         employee.setDesignation(dto.getDesignation());
 
-// pending status
+    // pending status
         employee.setStatus(dto.getStatus() != null
                 ? EmployeeStatus.valueOf(dto.getStatus().toUpperCase())
                 : EmployeeStatus.PENDING);
