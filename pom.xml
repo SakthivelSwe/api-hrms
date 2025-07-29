@@ -12,7 +12,10 @@
 	<artifactId>hrms</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>hrms</name>
-	<packaging>pom</packaging>
+    <modules>
+        <module>EMPLOYEE_SERVICE</module>
+    </modules>
+    <packaging>pom</packaging>
 	<url/>
 	<licenses>
 		<license/>
